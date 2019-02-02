@@ -42,6 +42,9 @@ type Results struct {
 	Urls 	[]Urls `json:"urls"`
 	Thumbnail Thumbnail `json:"thumbnail"`
 	Comics Comics `json:"comics"`
+	Stories Stories `json:"stories"`
+	Events Events `json:"events"`
+	Series Series `json:"series"`
 }
 type Data struct {
 	Offset int `json:"offset"`
